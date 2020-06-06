@@ -2,17 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AutoSprong</title>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <h1>Automatisch Sprongbriefje</h1>
-    <p id="date"></p>
-    <ul>
-        <li class="list">Edit the head </li>
-        <li class="list">Edit the body</li>
-        <li>Link to Javascript</li>
-    </ul>
+    <p> Deze website genereert een automatisch sprongbriefje gebaseerd op de regulaties van de NSTB.</p>
+    
+
+    
+    <form action="/action_page.php" method="get">
+        <p>Teamnaam:</p>
+    <label for="teamname"></label>
+    <input type="text" id="teamname"><br><br>    
+        <p>Namen van de teamgenoten:</p>
+        <label for="name_1"></label>
+        <input type="text" id="name_1"><br><br>
+        
+        <label for="name_2"></label>
+        <input type="text" id="name_2"><br><br>
+        
+        <label for="name_3"></label>
+        <input type="text" id="name_3"><br><br>
+        
+        <label for="name_4"></label>
+        <input type="text" id="name_4"><br><br>
+        
+        <label for="name_5"></label>
+        <input type="text" id="name_5"><br><br>
+        
+        <label for="name_6"></label>
+        <input type="text" id="name_6"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
     <script src="app.js"></script>
     <noscript>Enable JavaScript to view the full site.</noscript>
 </body>
